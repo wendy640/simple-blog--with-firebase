@@ -22,7 +22,7 @@ useEffect(() => {
 	if (!isAuth) {
 		navigate('/login')
 	}
-}, [])
+})
   return (
 		<div className="createPostPage">
 			<div className="cpContainer">
